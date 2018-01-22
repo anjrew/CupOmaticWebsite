@@ -1,0 +1,60 @@
+body {
+	background-color: rgb(200,200,200);
+	text-align: center;
+	font-family: sans-serif;
+	}
+
+h1	{	
+	color:rgb(50,50,50);
+	}
+
+h2	{	
+	color:rgb(50,50,50);
+	}
+
+
+#header{
+	background-image: url(images/pexels-photo-257210.jpeg);
+	padding: 40px;
+	background-size: 
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	}
+.fullpage {
+	min-width: 100%;
+	align-items: center;
+}
+
+.card{
+	margin:25px;
+	padding: 25px;
+	background-color: rgb(240,240,240);
+	border-radius: 4px;
+	border-color: rgba(0,0,0,4);
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	height: 300px;
+	width: 250px;
+	align-items: center;
+}
+.card img {
+  width: 80%;
+}
+
+.icon{
+	margin:40px;
+}
+
+#footer {
+  	background-color: rgb(50, 50, 50);
+  	color: rgb(200, 200, 200);
+  	font-size: 30px;
+  	margin-top: 50px;
+  	padding: 50px;
+	}
+
+#footer a {
+  	color: rgb(200,200,200);
+	}
+
+#footer a:hover {
+  	color: orange;
+	}
