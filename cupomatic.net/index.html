@@ -8,6 +8,16 @@
     <meta name="author" content="">
     <meta name="apple-itunes-app" content="app-id=myAppStoreID, affiliate-data=myAffiliateData, app-argument=myURL">
     <meta name="google-site-verification" content="M4G1ZhqmEplk4DzoNu-_wWCRxJpOFsedvibNikfNwU4" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113282505-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-113282505-1');
+	</script>
+
 
     <title>CupOmatic</title>
     <link rel="shortcut icon" href="img/CupOmatic_Icon.ico" type="image/x-icon" />
@@ -20,6 +30,8 @@
 	<link href="css/animations.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet">
 	<link href="color/default.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 </head>
 
@@ -27,7 +39,7 @@
 	
 	<section class="hero" id="home">
             <div class="container">
-              <div class="row">s
+              <div class="row">
                 <div class="col-md-12 text-right navicon">
                   <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
                   <a href= "https://itunes.apple.com/app/id1336170587" class="button2:hover" >
@@ -40,7 +52,7 @@
                 <div class="col-md-8 col-md-offset-2 text-center inner">
 					<div class="animatedParent">
 						<h1 class="animated fadeInDown">CupOmatic</h1>
-						<h2 class="animated fadeInUp" font color="white">Consistant, Accurate, Precise</h2>
+						<h2 class="animated fadeInUp" font color="white">Keeping your cupping on track</h2>
 					</div>
 			   </div>
               </div>
@@ -93,7 +105,7 @@
     <!-- /Navigation -->  
 
 <!-- Section: intro -->
-    <section id="intro" class="home-section color-dark bg-white">
+    <section id="intro" class="home-section color-dark bg-white full">
 		<div class="container marginbot-50">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
@@ -130,7 +142,7 @@
     
     <!-- Section: features -->
     <section id="features" class="home-section color-dark bg-white">
-		<div class="container marginbot-50">
+		<!-- <div class="container marginbot-50">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
 					<div class="animatedParent">
@@ -140,7 +152,7 @@
 						</div>
 					</div>	
 				</div>
-			</div>
+			</div> -->
 
 		</div>
 
@@ -157,10 +169,16 @@
 						<img class = "resize" src="img/screenshots/Screenshot 2018-01-20 16.43.42.png" alt="CupOmatic">
 				</div>	
 				<div class="col-lg-6 text-center text-middle centre-vertically" >
-
-					<h4>Keeping your cupping on track</h4>
+<!-- 
+					<h4>Adaptable</h4> -->
+					<div class="animatedParent">
+						<div class="section-heading text-center animated bounceInDown">
+						<h2 class="h-bold">Features</h2>
+						<div class="divider-header"></div>
+						</div>
+					</div>	
 					<p>
-					<ul>
+					<ul class= "spaced">
                           <li>Advanced/Basic mode</li>
                           <li>Pour, break and sample indicators</li>
                           <li>Voice prompts</li>  
@@ -181,7 +199,7 @@
 	</section>
 
 	<!-- Section: about -->
-    <section id="about" class="home-section color-dark bg-white">
+    <section id="about" class="home-section color-dark bg-white marginbot-80 ">
 		<div class="container marginbot-50">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
@@ -222,7 +240,7 @@
 	
 
 	<!-- Section: contact -->
-    <section id="contact" class="home-section color-dark bg-gray text-center"> <!-- nopadd-bot  -->
+    <section id="contact" class="home-section color-dark bg-gray text-center full"> <!-- nopadd-bot  -->
 		<div class="container marginbot-50">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
@@ -290,7 +308,13 @@
 					<a href= "https://itunes.apple.com/app/id1336170587">
 						<img  src="img/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="App Store Logo">
 					</a>
-					<img class= "icon-resize" src="img/comingSoonToGooglePLay.png" alt="Google play Logo">
+					<img class= "icon-resize item" src="img/comingSoonToGooglePLay.png" alt="Google play Logo">
+					<a href="https://www.facebook.com/cupOmatic/" >
+						<img class="faceBookIcon" src="img/faceBookIcon.png">	
+					</a>
+					<a href="https://www.instagram.com/cupomatic/" >
+						<img class="faceBookIcon item" src="img/instagramLogo.png">	
+					</a>
 				</div>
 
 				<div class="col-md-3 text-right">
