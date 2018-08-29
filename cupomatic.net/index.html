@@ -37,6 +37,15 @@
 
     <body id="page-top" data-spy="scroll" data-target=".navbar-custom">
 
+            <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.1&appId=359372447808934&autoLogAppEvents=1';
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+
         <section class="hero" id="home">
                 <div class="container">
                   <div class="row">
@@ -200,7 +209,7 @@
         </section>
 
         <!-- Section: about -->
-        <section id="about" class="home-section color-dark bg-white marginbot-80 ">
+        <section id="about" class="home-section color-dark bg-white">
             <div class="container marginbot-50">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
@@ -234,13 +243,25 @@
     <!--					<a href="#service" class="btn btn-skin btn-scroll">What we do</a>  -->
                     </div>
                 </div>
-
-
             </div>		
             </div>
 
         </section>
-        <!-- /Section: about -->
+
+
+        <!-- Section: Feeds -->       <!-- <li><a href="#">Press release</a></li> -->
+
+        <section id="about" class="home-section color-dark bg-white">
+            <div class="container marginbot-50">
+                <div class = "row">
+                    <!-- SnapWidget -->
+                    <script src="https://snapwidget.com/js/snapwidget.js"></script>
+                    <iframe src="https://snapwidget.com/embed/590772" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:100%; "></iframe>            </div>		
+                </div>
+                <div class = row></div>
+                <div class="fb-page" data-href="https://www.facebook.com/cupOmatic/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/cupOmatic/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cupOmatic/">CupOmatic</a></blockquote></div>                </div>
+        </section>
+
 
 
         <!-- Section: contact -->
@@ -261,40 +282,7 @@
                 </div>
 
             </div>
-    <!--	
-            <div class="container">
 
-                <div class="row marginbot-80">
-                    <div class="col-md-8 col-md-offset-2">
-                            <form id="contact-form">
-                            <div class="row marginbot-20">
-                                <div class="col-md-6 xs-marginbot-20">
-                                    <input type="text" class="form-control input-lg" id="name" placeholder="Enter name" required="required" />
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="email" class="form-control input-lg" id="email" placeholder="Enter email" required="required" />
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="form-group">
-                                            <input type="text" class="form-control input-lg" id="subject" placeholder="Subject" required="required" />
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea name="message" id="message" class="form-control" rows="4" cols="25" required="required"
-                                            placeholder="Message"></textarea>
-                                    </div>						
-                                    <button type="submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs">
-                                        Send Message</button>
-                                </div>
-                            </div>
-                            </form>
-                    </div>
-                </div>	
-
-
-            </div>
-    -->		
         </section>
         <!-- /Section: contact -->
 
@@ -306,9 +294,7 @@
                         <ul class="footer-menu ">
                             <li><a class="text-center" href="#">Home</a></li>
 
-                            <!-- <li><a href="#">Press release</a></li> -->
                         </ul>
-                    </br>
                     </div>
                     <div class="col-md-4 text-center">
                         <a href= "https://itunes.apple.com/app/id1336170587">
