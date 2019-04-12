@@ -41,6 +41,12 @@
     transform: translateX(400px); 
 }
 
+.fadeInRight.on, .fadeInLeft.on, .fadeInUp.on, .fadeInDown.on{
+    opacity:1;
+    -webkit-transform: translateX(0px); 
+    transform: translateX(0px); 
+}
+
 .flipInX, .flipInY, .rotateIn, .rotateInUpLeft, .rotateInUpRight, .rotateInDownLeft, .rotateDownUpRight, .rollIn{
     opacity:0;
 }
