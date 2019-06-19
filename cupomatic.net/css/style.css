@@ -548,11 +548,30 @@ section.full{
 .hero { 
 	display: flex;
 	justify-content: flex-end;
-	align-items: flex-end; 
-	background: url(../img/hero-bg1.jpg) no-repeat center /*center*/; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0; height: auto; 
-	height: 1000px;
-	padding: 0px
+	align-items: flex-end;
+	height: 640px;
+	padding: 0px;
+	/* filter: blur(10px); */
 }
+
+.hero-image{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.overlay{
+	position: absolute;
+    background-color: black;
+    transition: opacity 0.5s; 
+    opacity: 0.2;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+
+
 /*.hero h1 { font-size: 40px; letter-spacing: 12px; margin: 40px 0 10px; font-weight: 900; color: #fff;}*/
 .hero h1 { font-size: 60px; margin: 60px 0 10px; color: #fff;}
 .hero h1 span { color: #a1a9b0; display: inline-block; }
@@ -561,9 +580,24 @@ section.full{
 .learn-more-btn:hover, .learn-more-btn:focus { color: #fff; }
 
 .hero .container{
-	align-self: flex-end;
+	position: absolute;
+	align-self: center;
+	z-index: 200px;
 	height: 350px;
-	width: 100%
+	width: 100%;
+}
+
+/* .hero .overlay{
+	position: absolute;
+	background-color: #222;
+	opacity: 0.2;
+	z-index: 100;
+	width: 100%;
+	height: 100%;
+} */
+
+.hero::after{
+	background-color: #222;
 }
 
 .center-children{

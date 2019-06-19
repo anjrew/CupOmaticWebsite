@@ -23,14 +23,13 @@
     <link rel="shortcut icon" href="img/CupOmatic_Icon.ico" type="image/x-icon" />
 
     <!-- css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
     <link href="css/style.css" rel="stylesheet">
     <link href="color/default.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-
 
 </head>
 
@@ -46,6 +45,8 @@
         }(document, 'script', 'facebook-jssdk'));</script>
 
     <section class="hero" id="home">
+        <img class= "hero-image" src="../img/hero-bg1.jpg" alt="cupomatic">
+        <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div id="center-children">
@@ -94,7 +95,7 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="animatedParent">
                         <div class="section-heading text-center animated fadeInDown">
-                            <h2 class="h-bold">Intro</h2>
+                            <h2 class="h-bold" data-aos="fade-down">Intro</h2>
                             <div class="divider-header"></div>
                         </div>
                     </div>
@@ -110,7 +111,7 @@
                 <div class="col-lg-8 col-lg-offset-2 animatedParent">
                     <div class="animatedParent">
                         <div class="section-heading text-center animated fadeInUp">
-                            <div class="text-center">
+                            <div class="text-center" data-aos="fade-up">
                                 <p>Remember the last time you messed up your cupping session because you got distracted?
                                 </p>
                                 <p>CupOmatic gives you alerts throughout your cupping session. Your cuppings will be on
@@ -140,7 +141,7 @@
                 <div class="row">
                     <div class="col-lg-12 animatedParent">
                         <div class="animatedParent">
-                            <div class="section-heading text-center animated fadeInLeft">
+                            <div class="section-heading text-center animated fadeInLeft " data-aos="fade-right">
                                 <div class="col-lg-3 text-center">
                                     <img id="screenshot-one" class="resize"
                                         src="img/screenshots/Screenshot 2018-01-20 16.43.42.png" alt="CupOmatic">
@@ -152,12 +153,12 @@
 
                             <div class="animatedParent">
                                 <div class="section-heading text-center animated fadeInDown">
-                                    <h2 class="h-bold">Features</h2>
+                                    <h2 class="h-bold" data-aos="fade-down">Features</h2>
                                     <div class="divider-header"></div>
                                 </div>
                             </div>
                             <div class="animatedParent">
-                                <div class="section-heading text-center animated fadeInUp">
+                                <div class="section-heading text-center animated fadeInUp" data-aos="fade-up">
                                     <ul class="spaced text-center">
                                         <li>Advanced/Basic mode</li>
                                         <li>Pour, break and sample indicators</li>
@@ -169,7 +170,7 @@
 
                         </div>
                         <div class="animatedParent">
-                            <div class="section-heading text-center animated fadeInRight">
+                            <div class="section-heading text-center animated fadeInRight" data-aos="fade-left">
                                 <div class="col-lg-3 text-center">
                                     <img id="screenshot-two" class="resize"
                                         src="img/screenshots/Screenshot 2018-01-20 16.44.14.png" alt="CupOmatic">
@@ -192,7 +193,7 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="animatedParent">
                             <div class="section-heading text-center animated fadeInDown">
-                                <h2 class="h-bold">About</h2>
+                                <h2 class="h-bold" data-aos="fade-down">About</h2>
                                 <div class="divider-header"></div>
                             </div>
                         </div>
@@ -202,15 +203,11 @@
             </div>
 
             <div class="container">
-
-
                 <div class="row">
-
-
                     <div class="col-lg-8 col-lg-offset-2 animatedParent">
                         <div class="animatedParent">
                             <div class="section-heading text-center animated fadeInUp">
-                                <div class="text-center">
+                                <div class="text-center" data-aos="fade-up">
                                     <p>Made by Andrew Johnson in Berlin.</p>
                                     <p>Big thanks to Karin Vališová for her programming genius for helping me out.</p>
                                     <p>Also James Harper for his constant nagging and slagging of my app with
@@ -237,7 +234,7 @@
 
         <section id="about" class="home-section color-dark bg-white">
             <div class="container marginbot-50">
-                <div class="row">
+                <div class="row" data-aos="zoom-in">
                     <!-- SnapWidget -->
                     <script src="https://snapwidget.com/js/snapwidget.js"></script>
                     <iframe src="https://snapwidget.com/embed/590772" class="snapwidget-widget" allowtransparency="true"
@@ -258,10 +255,10 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="animatedParent">
                             <div class="section-heading text-center">
-                                <h2 class="h-bold animated fadeInDown">Get in touch with us</h2>
+                                <h2 class="h-bold animated fadeInDown" data-aos="fade-down">Get in touch with us</h2>
                                 <br />
                                 <!-- <h2>info@cupomatic.com</h2> -->
-                                <a class="email" href="mailto:info@cupomatic.net">info@cupomatic.net</a>
+                                <a class="email" href="mailto:info@cupomatic.net" data-aos="fade-up">info@cupomatic.net</a>
                                 <div class="divider-header"></div>
                             </div>
                         </div>
@@ -319,6 +316,31 @@
         </footer>
 
         <!-- Core JavaScript Files -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+            
+
+            // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 400, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            once: true, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+            });
+        </script>
         <script src="js/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
         <script src="js/jquery.sticky.js"></script>
