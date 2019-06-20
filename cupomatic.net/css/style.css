@@ -565,7 +565,7 @@ section.full{
 	position: absolute;
     background-color: white;
     transition: opacity 0.5s; 
-    opacity: 0.4;
+    opacity: 0.3;
     width: 100%;
     height: 500px;
     z-index: 0;
@@ -974,8 +974,19 @@ form.search-form input:focus {
 	align-content: flex-start;
 }
 
-.al
+#hero-title{
+	/* color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+	color:black;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
 
+#sub-title{
+	/* color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+	color:black;
+	text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
 
 /* ===========================
 --- Footer
@@ -989,9 +1000,6 @@ footer {
 	padding: 50px 0 30px ;
 }
 
-footer .container{
-	background-color: #404040;
-}
 
 footer p {
 	color: #f8f8f8;
