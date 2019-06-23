@@ -581,7 +581,7 @@ section.full{
 .learn-more-btn:hover, .learn-more-btn:focus { color: #fff; }
 
 .hero .container{
-	bottom: 280px;
+	top: 120px;
 	position: absolute;
 	align-self: center;
 	height: 400px;
